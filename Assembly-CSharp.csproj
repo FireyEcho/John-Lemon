@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7E5DBD6E-97EF-125B-B441-C4962E151C90}</ProjectGuid>
+    <ProjectGuid>{A6C2328E-4F60-1D8D-796C-C8BB0CA3F774}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,12 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\WaypointPatrol.cs" />
-    <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\GameEnding.cs" />
-    <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\Observer.cs" />
-    <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\UnityTechnologies\3DBeginnerTutorial\Scripts\LightFlicker.cs" />
+    <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
+    <Compile Include="Assets\Scripts\GameEnding.cs" />
+    <Compile Include="Assets\Scripts\Observer.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\LightFlicker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -80,12 +79,12 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\UnityTechnologies\3DBeginnerTutorial\Shaders\ToonShader.shader" />
+    <None Include="Assets\Shaders\ToonShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\UnityTechnologies\3DBeginnerTutorial\Shaders\SpookyStandardShader.shader" />
+    <None Include="Assets\Shaders\SpookyStandardShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\UnityTechnologies\3DBeginnerTutorial\Shaders\PlaneFog.shader" />
+    <None Include="Assets\Shaders\PlaneFog.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
